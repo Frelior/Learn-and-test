@@ -1,13 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iscariot Factory Inc.</title>
 </head>
 <body>
-    <p>meow</p>
-    <h1>gav GAV GAV GAV GAV GAV GAV GAV</h1>
+    <div class="bgwave">
+        
+    </div>
+    <header>
+        <div class="inner">
+
+            <div>nav-block</div>
+
+
+            <div class="logo_block">
+                <div class="logo">
+                    <a class="logo-link" href="#">
+                        <img class="logo-img" src="/images/factory-logo.png" alt="">
+                    </a>
+                    <p>Est. 2023</p>
+                </div>
+                <h1>Iskariot Inc.</h1>
+            </div>
+
+            <div>nav-block</div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="inner">
+            <div class="window window-register">
+                <form class="register_form" >
+                    <h3>Register a rabotyaga</h3>
+
+                    <div class="mb-3">
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id="nameRegister"
+                            aria-describedby="helpId"
+                            placeholder="first name"
+                        />
+                    </div>
+
+                    <div class="mb-3">
+                        <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id="secondNameRegister"
+                            aria-describedby="helpId"
+                            placeholder="second name"
+                        />
+                    </div>
+
+                    <div class="mb-3">
+                        <input
+                            type="email"
+                            class="form-control"
+                            name=""
+                            id="emailRegister"
+                            aria-describedby="helpId"
+                            placeholder="e-mail"
+                        />
+                    </div>
+
+                    <div class="mb-3">
+                        <input
+                            type="password"
+                            class="form-control"
+                            name=""
+                            id="passwordRegister"
+                            aria-describedby="helpId"
+                            placeholder="password"
+                        />
+                    </div>
+                    
+                    <button
+                        type="submit"
+                        class="btn btn-primary"
+                    >
+                        Submit
+                    </button>
+                    
+                    
+                </form>
+            </div>
+
+
+            <div class="window window-list">
+                <h3>List of rabotyages</h3>
+                <div class="workers-list" id="workers">
+                    <ul class="list-group">
+                        <li class="list-group-item workers-item active">worker 1sssssssss</li>
+                        <li class="list-group-item workers-item">worker 2sssssssss</li>
+                        <li class="list-group-item workers-item">worker 3sssssssss</li>
+                        <li class="list-group-item workers-item">worker 4sssssssss</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/script.js" defer></script>
 </body>
+
 </html>
